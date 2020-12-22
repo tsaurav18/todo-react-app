@@ -1,0 +1,62 @@
+.App {
+  background: #91bedc;
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ 
+.todo-list {
+  margin-top:76px;
+  /* background: #e8e8e8; */
+  border-radius: 4px;
+  max-width: 400px;
+
+  height:100%;
+  width:100%;
+  
+
+}
+.form-input{
+  position: absolute;
+  top: 0;
+  margin-top: 20px;
+
+}
+.form-input input[type="text"]{
+  
+  width: 350px;
+  border-radius: 5px;
+  outline: none;
+  padding: 7px;
+}
+.form-input button {
+  padding: 7px;
+  background-color: black;
+  outline: none;
+  color: white
+
+}
+
+
+.todo {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+} 
+
+.todo button{
+  margin-left: 5px;
+  text-align: center;
+
+}
+.todo .remove{
+  background-color: red
+}
